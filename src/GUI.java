@@ -41,5 +41,6 @@ public class GUI extends JFrame {
         client = new Client(endHost, endPort, chatArea);
 
         setVisible(true);
+
     }
 }

@@ -39,5 +39,6 @@ public class Client {
 
     public DataOutputStream getOut() {
         return out;
+
     }
 }

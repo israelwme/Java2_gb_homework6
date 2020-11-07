@@ -3,4 +3,5 @@ public class Main {
         new Thread(() -> new GUI("localhost", 18443, 18444)).start();
         new Thread(() -> new GUI("localhost", 18444, 18443)).start();
     }
+
 }
